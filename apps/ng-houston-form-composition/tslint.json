@@ -1,0 +1,17 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "ngHoustonFormComposition",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "ng-houston-form-composition",
+      "kebab-case"
+    ]
+  }
+}

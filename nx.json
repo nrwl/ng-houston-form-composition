@@ -1,0 +1,18 @@
+{
+  "npmScope": "ng-houston-form-composition",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "ng-houston-form-composition-e2e": {
+      "tags": []
+    },
+    "ng-houston-form-composition": {
+      "tags": []
+    }
+  }
+}
