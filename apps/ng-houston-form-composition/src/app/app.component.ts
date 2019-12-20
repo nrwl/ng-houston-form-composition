@@ -1,4 +1,8 @@
 import { Component } from '@angular/core';
+import {
+  createFamilyTreeControl,
+  simpsonsFamilyTree
+} from './family-tree/family-tree.utils';
 
 @Component({
   selector: 'ng-houston-form-composition-root',
@@ -6,5 +10,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ng-houston-form-composition';
+  control = createFamilyTreeControl(simpsonsFamilyTree);
 }
